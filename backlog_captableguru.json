@@ -1,0 +1,93 @@
+{
+  "epics": [
+    {
+      "epic": "Landing Page + Onboarding Funnel",
+      "user_stories": [
+        {
+          "story": "As a curious visitor, I want to understand what CapTableGuru does in <10 seconds",
+          "tasks": [
+            "Write concise headline and subheadline",
+            "Add 1-liner elevator pitch",
+            "Add high-impact hero visual or animation (optional)",
+            "Place CTA: 'Try It Free' or 'Generate My Cap Table'"
+          ]
+        },
+        {
+          "story": "As a new user, I want to sign up easily and get started fast",
+          "tasks": [
+            "Design and implement signup form (name, email, role)",
+            "Auto-redirect to onboarding or dashboard after signup",
+            "Add option to sign in with GitHub or Google (optional)"
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Core Cap Table Generation",
+      "user_stories": [
+        {
+          "story": "As a founder, I want to enter my company structure and ownership easily",
+          "tasks": [
+            "Create data input form for founder names, % ownership",
+            "Add ability to enter investors, SAFEs, ESOP pool",
+            "Provide examples and tooltips for each section"
+          ]
+        },
+        {
+          "story": "As a user, I want the AI to generate my cap table clearly",
+          "tasks": [
+            "Process input into tabular format (round-wise and post-money)",
+            "Show visual equity pie charts or bar graphs",
+            "Enable download as PDF / CSV"
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Learning Layer / AI Explanations",
+      "user_stories": [
+        {
+          "story": "As a first-time founder, I want to understand the impact of dilution and SAFE rounds",
+          "tasks": [
+            "Add tooltip overlays for terms (e.g., 'pre-money,' 'SAFE,' 'ESOP')",
+            "Add AI-generated summary of dilution effects",
+            "Include a 'What does this mean?' button per section"
+          ]
+        },
+        {
+          "story": "As a user, I want to ask freeform questions about my cap table",
+          "tasks": [
+            "Embed basic AI assistant (e.g., using OpenAI or Claude)",
+            "Preload common questions (e.g., 'What if I raise $500k on a $5M SAFE?')"
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Collaboration & Sharing",
+      "user_stories": [
+        {
+          "story": "As a founder, I want to share my cap table with investors or co-founders",
+          "tasks": [
+            "Add 'Share' link with read-only view",
+            "Add comments or annotation features",
+            "Enable version history or 'Save Snapshot' button"
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Admin & DevOps",
+      "user_stories": [
+        {
+          "story": "As a builder, I want a fast development setup to iterate quickly",
+          "tasks": [
+            "Set up Supabase DB with schema from data_model.md",
+            "Deploy app via Vercel / Netlify / Streamlit for MVP",
+            "Set up logging and bug tracking"
+          ]
+        }
+      ]
+    }
+  ]
+}
